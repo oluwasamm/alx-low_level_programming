@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Prints the last digit of a randomly generated number
+ * main - Prints the Last digit of a randomly generated number
  * weather it is greater than 5, less than 6, or 0.
  *
  * Return: always 0 (success)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0) 
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	else
 	{
