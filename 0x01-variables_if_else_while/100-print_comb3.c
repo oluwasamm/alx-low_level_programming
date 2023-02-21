@@ -2,7 +2,7 @@
 
 /**
  * main - print all possible diffrent combination of two digits
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -27,4 +27,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
