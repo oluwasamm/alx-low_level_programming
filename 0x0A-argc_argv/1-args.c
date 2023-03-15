@@ -10,8 +10,7 @@
  */
 int main(int argc, char *argvv[])
 {
-(void)argvv; /*Ignore argv*/
-      printf("%d\n", argc - 1);
-
-      return (0);
+	(void)argvv; /*Ignore argv*/
+	printf("%d\n", argc - 1);
+	return (0);
 }
